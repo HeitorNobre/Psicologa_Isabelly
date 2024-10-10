@@ -1,0 +1,35 @@
+/* Estilo para a seção principal */
+.hero-section {
+    background-image: url('../assets/nature-4627138_1920.jpg'); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área da seção */
+    background-position: center;
+    height: 100vh; /* A seção ocupa toda a altura da tela */
+    width: 98.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Conteúdo da seção (texto) */
+  .hero-content h1 {
+    font-size: 3rem; /* Tamanho do texto grande */
+    color: white; /* Cor do texto branco */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para destacar o texto */
+    padding: 0 20px; /* Adiciona espaçamento interno */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem; /* Reduz o tamanho do texto em dispositivos menores */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 1.5rem; /* Tamanho ainda menor para dispositivos muito pequenos */
+    }
+  }
+  

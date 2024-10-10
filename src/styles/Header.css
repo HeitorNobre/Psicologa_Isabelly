@@ -1,0 +1,105 @@
+/* Estilos gerais para o header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  width: 100%; /* Faz o header ocupar 100% da largura */
+  max-width: 97vw; /* Limita a largura máxima */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  position: fixed; /* Fixar o header no topo */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Garante que o header fique acima de outros elementos */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+/* Estilo da logo */
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+/* Estilo para o menu de navegação */
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-weight: 500;
+}
+
+/* Container do botão */
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo do botão */
+.schedule-button {
+  background-color: #2b2626;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.schedule-button:hover {
+  background-color: #444;
+}
+
+/* Estilo do botão de menu */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .nav ul {
+    flex-direction: column; /* Ajusta o menu de navegação em telas menores */
+    align-items: center;
+    position: absolute;
+    top: 100%; /* Coloca o menu abaixo do header */
+    left: 0;
+    right: 0;
+    background-color: #f4f4f4;
+    display: none; /* Esconder o menu inicialmente */
+  }
+
+  .nav.active ul {
+    display: flex; /* Mostrar o menu quando ativo */
+  }
+
+  .nav ul li {
+    margin: 10px 0;
+  }
+
+  .header {
+    flex-direction: column; /* Ajusta a disposição do header */
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    display: block; /* Exibe o ícone de menu em telas pequenas */
+  }
+
+  .button-container {
+    margin-top: 10px; /* Adiciona espaço acima do botão em telas pequenas */
+  }
+}
