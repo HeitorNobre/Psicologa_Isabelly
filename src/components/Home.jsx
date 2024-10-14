@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Section1.css'; // Certifique-se de criar o arquivo CSS e importar corretamente
+import '../styles/Home.css'; // Certifique-se de criar o arquivo CSS e importar corretamente
 
-const Section = () => {
+const Home = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
@@ -11,4 +11,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default Home;

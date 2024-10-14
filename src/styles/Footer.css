@@ -1,0 +1,62 @@
+/* Estilos gerais para o footer */
+.footer {
+    background-color: #2b2626; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Espaço entre as informações de contato e redes sociais */
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se necessário */
+}
+
+.contact-info, .social-media {
+    margin: 10px; /* Espaçamento entre os grupos de informações */
+}
+
+.social-media ul {
+    list-style: none; /* Remove a marcação padrão da lista */
+    padding: 0; /* Remove o padding da lista */
+}
+
+.social-media ul li {
+    margin: 5px 0; /* Espaçamento entre os itens da lista */
+}
+
+.social-media a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer-bottom {
+    margin-top: 2.5px; /* Espaço acima do rodapé */
+    font-size: 0.8rem; /* Tamanho da fonte menor */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Altera a direção do layout para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .contact-info, .social-media {
+        margin: 5px 0; /* Reduz o espaço em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 15px; /* Reduz o padding em telas muito pequenas */
+    }
+
+    .footer-bottom {
+        font-size: 0.7rem; /* Reduz o tamanho da fonte do rodapé em telas muito pequenas */
+    }
+}

@@ -6,3 +6,12 @@
   font-weight: 400;
   font-style: normal;
 }
+a{
+
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  color: #b1bdca !important; /* Cor de fundo ao passar o mouse (cinza claro) */
+}

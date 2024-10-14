@@ -39,6 +39,12 @@
   text-decoration: none;
   color: #5a5a5a;
   font-weight: 500;
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+.nav ul li a:hover,
+.nav ul li a:focus {
+  color: #2b2626; /* Muda a cor ao passar o mouse ou focar */
 }
 
 /* Container do botão */
@@ -56,10 +62,12 @@
   border-radius: 25px;
   font-weight: 500;
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave */
 }
 
-.schedule-button:hover {
-  background-color: #444;
+.schedule-button:hover,
+.schedule-button:focus {
+  background-color: #444; /* Muda a cor ao passar o mouse ou focar */
 }
 
 /* Estilo do botão de menu */
