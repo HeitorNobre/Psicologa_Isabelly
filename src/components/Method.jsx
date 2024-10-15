@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/Method.css'; // Certifique-se de criar o arquivo CSS e importar corretamente
+import Metodo from '../assets/metodo.jpg'
 
 const Method = () => {
   return (
     <section className="method-section">
       <div className="method-content">
         <div className="method-image">
-          <img src="src/assets/metodo.jpg" alt="Imagem representativa do Método TCC" />
+          <img src={Metodo} alt="Imagem representativa do Método TCC" />
         </div>
         <div className="method-text">
           <h2>Mais sobre o método TCC</h2>

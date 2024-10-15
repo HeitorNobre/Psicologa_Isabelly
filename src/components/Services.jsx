@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Services.css'; // Certifique-se de criar o arquivo CSS e importar corretamente
 import adultoPresencial from '../assets/adulto_presencial.jpg';
+import infantilPresencial from '../assets/infantil_presencial.jpg';
+import onlineGeral from '../assets/online_geral.jpg';
 
 
 
@@ -24,7 +26,7 @@ const Services = () => {
           className="schedule-button">Agende uma sessão</a>
         </div>
         <div className="service-item">
-          <img src="src\assets\infantil_presencial.jpg" alt="Atendimento infantil presencial" />
+          <img src={infantilPresencial} alt="Atendimento infantil presencial" />
           <h3>Atendimento infantil presencial</h3>
           <p>R$ 230</p>
           <p>Oferecemos atendimento psicológico presencial para crianças em nossa clínica em Tatuapé, SP. Em um ambiente acolhedor, ajudamos os pequenos a expressar emoções, desenvolver habilidades sociais e superar desafios.
@@ -38,7 +40,7 @@ const Services = () => {
           className="schedule-button">Agende uma sessão</a>
         </div>
         <div className="service-item">
-          <img src="src\assets\online_geral.jpg" alt="Atendimento online" />
+          <img src={onlineGeral} alt="Atendimento online" />
           <h3>Atendimento online</h3>
           <p>R$ 200</p>
           <p>Oferecemos sessões de terapia online com a TCC, no conforto da sua casa. Em um ambiente virtual seguro, você pode acessar apoio emocional e desenvolver estratégias para enfrentar desafios diretamente do conforto do seu lar.
