@@ -1,5 +1,8 @@
 import React from 'react';
 import '../styles/Services.css'; // Certifique-se de criar o arquivo CSS e importar corretamente
+import adultoPresencial from '../assets/adulto_presencial.jpg';
+
+
 
 const Services = () => {
   return (
@@ -7,7 +10,7 @@ const Services = () => {
       <h2>Nossos serviços</h2>
       <div className="services-grid">
         <div className="service-item">
-          <img src="src\assets\adulto_presencial.jpg" alt="Atendimento adulto presencial" />
+        <img src={adultoPresencial} alt="Atendimento adulto presencial" />
           <h3>Atendimento adulto presencial</h3>
           <p>R$ 230</p>
           <p>Oferecemos atendimento psicológico presencial em nosso espaço no Tatuapé, SP. Com um local acolhedor e confidencial, estamos prontos para ajudá-lo a superar desafios emocionais e melhorar seu bem-estar.<br/><br/>
