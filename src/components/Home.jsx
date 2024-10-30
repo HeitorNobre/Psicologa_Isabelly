@@ -5,7 +5,8 @@ const Home = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1>Transforme Pensamentos, Alinhe Emoções</h1>
+        <h1>"Se nossos pensamentos forem limpos e claros, estaremos melhor preparados para alcançar nossos objetivos"</h1>
+        <h4>Aaron Beck</h4>
       </div>
     </section>
   );
