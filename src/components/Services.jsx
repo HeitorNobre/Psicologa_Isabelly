@@ -29,7 +29,7 @@ const Services = () => {
           <img src={infantilPresencial} alt="Atendimento infantil presencial" />
           <h3>Atendimento infantil presencial</h3>
           <p>R$ 230</p>
-          <p>Oferecemos atendimento psicológico presencial para crianças em nossa clínica em Tatuapé, SP. Em um ambiente acolhedor, ajudamos os pequenos a expressar emoções, desenvolver habilidades sociais e superar desafios.
+          <p>Oferecemos atendimento psicológico presencial para crianças em nossa clínica no Tatuapé, SP. Em um ambiente acolhedor, ajudamos os pequenos a expressar emoções, desenvolver habilidades sociais e superar desafios.
             <br /><br />
             Agende uma sessão e proporcione ao seu filho um espaço seguro para crescer e se desenvolver!</p>
             <br />
